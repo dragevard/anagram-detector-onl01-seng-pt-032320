@@ -8,8 +8,8 @@ class Anagram
     @word = word 
   end 
   
-  def match(anagram)
-    anagram.each do |word|
+  def match(words)
+    words.each do |word|
       
     else 
       [] 
