@@ -9,8 +9,8 @@ class Anagram
   end 
   
   def match(anagram)
-    if anagram == word 
-      word 
+    anagram.each do |word|
+      
     else 
       [] 
     end 
