@@ -10,7 +10,7 @@ class Anagram
   
   def match(anagram)
     if anagram == word 
-      anagram 
+      word 
     else 
       [] 
     end 
