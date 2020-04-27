@@ -10,8 +10,7 @@ class Anagram
   
   def match(words)
     words.each do |word|
-      if word.split("") == @word.split("") && word.sort == word.sort
-        
+      @word.split("").sort == word.split("").s
       end 
     end 
     []
