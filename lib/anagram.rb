@@ -12,10 +12,10 @@ class Anagram
     words.each do |word|
       if @word == word.split("")
         word 
-      else 
-        []
+    
       end 
     end 
+    []
   end 
   
 end
